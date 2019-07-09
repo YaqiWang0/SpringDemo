@@ -8,21 +8,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springdemo" />
         <module name="springdemo (1)" />
+        <module name="springdemo (10)" />
         <module name="springdemo (2)" />
         <module name="springdemo (3)" />
         <module name="springdemo (4)" />
         <module name="springdemo (5)" />
         <module name="springdemo (6)" />
+        <module name="springdemo (7)" />
+        <module name="springdemo (8)" />
+        <module name="springdemo (9)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springdemo" target="1.8" />
       <module name="springdemo (1)" target="1.8" />
+      <module name="springdemo (10)" target="1.8" />
       <module name="springdemo (2)" target="1.8" />
       <module name="springdemo (3)" target="1.8" />
       <module name="springdemo (4)" target="1.8" />
       <module name="springdemo (5)" target="1.8" />
       <module name="springdemo (6)" target="1.8" />
+      <module name="springdemo (7)" target="1.8" />
+      <module name="springdemo (8)" target="1.8" />
+      <module name="springdemo (9)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
