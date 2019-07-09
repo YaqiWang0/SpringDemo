@@ -7,6 +7,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/SpringAOP-pointcut-declarations/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-pointcut-declarations-combo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-pointcut-order-aspects/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-read-joinpoint/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-z-after-returning/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-z-after-throwing/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-zz-after-finally/pom.xml" />
       </list>
     </option>
   </component>
