@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/SpringAOP-pointcut-declarations/pom.xml" />
         <option value="$PROJECT_DIR$/SpringAOP/pom.xml" />
         <option value="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/pom.xml" />
       </list>
     </option>
   </component>

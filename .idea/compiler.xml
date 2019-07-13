@@ -9,6 +9,7 @@
         <module name="springdemo" />
         <module name="springdemo (1)" />
         <module name="springdemo (10)" />
+        <module name="springdemo (11)" />
         <module name="springdemo (2)" />
         <module name="springdemo (3)" />
         <module name="springdemo (4)" />
@@ -23,6 +24,7 @@
       <module name="springdemo" target="1.8" />
       <module name="springdemo (1)" target="1.8" />
       <module name="springdemo (10)" target="1.8" />
+      <module name="springdemo (11)" target="1.8" />
       <module name="springdemo (2)" target="1.8" />
       <module name="springdemo (3)" target="1.8" />
       <module name="springdemo (4)" target="1.8" />

@@ -11,81 +11,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e524641f-7514-4ffb-99bd-065efc03b3c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zz-around/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/CircuitBreakerDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/TestC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/CircuitBreakerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/ExceptionThrowClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/GetFortuneforCircuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -103,76 +61,85 @@
     <ignored path="$PROJECT_DIR$/SpringAOP-zz-around/target/" />
     <ignored path="$PROJECT_DIR$/SpringAOP-zz-around-with-logger/target/" />
     <ignored path="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/target/" />
+    <ignored path="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringDemo$SpringdemoApplication__1_.ic" NAME="SpringdemoApplication (1) Coverage Results" MODIFIED="1562847872319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.springandhibernate.springdemo.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-525850121">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="47" />
+          <entry key="java" value="64" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="64" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3718" />
+          <entry key="java" value="4257" />
+          <entry key="properties" value="54" />
+          <entry key="xml" value="180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3718" />
+          <entry key="JAVA" value="4257" />
+          <entry key="Properties" value="54" />
+          <entry key="XML" value="180" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="338">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="115">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -181,46 +148,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="236">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="38" column="96" selection-start-line="38" selection-start-column="96" selection-end-line="38" selection-end-column="96" />
+            <state relative-caret-position="252">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/TestC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="138">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#209#217#1" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+            <state relative-caret-position="170">
+              <caret line="13" column="108" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="108" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#279#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,10 +237,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>System.out.println</find>
+      <find>${resilience4jVersion}</find>
     </findStrings>
     <replaceStrings>
       <replace>myLogger.info</replace>
       <replace>logger.info</replace>
+      <replace>0.16.0</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -286,6 +288,19 @@
         <option value="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" />
         <option value="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java" />
         <option value="$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/ExceptionThrowClass.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/resources/logback-spring.xml.properties" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Duplicate.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/test.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/TestC.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java" />
+        <option value="$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" />
       </list>
     </option>
   </component>
@@ -295,18 +310,41 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="174" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springdemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springdemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,24 +355,107 @@
             <path>
               <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringAOP-zzz-around-handle-exception" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringAOP-resilience4j-CircuitBreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562643195828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562856958203" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.springandhibernate.springdemo.aopdemo" />
       <recent name="com.springandhibernate.springdemo" />
@@ -355,33 +476,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AroundHandleExceptionDemoApp">
-    <configuration name="AfterFinallyDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springandhibernate.springdemo.aopdemo.AfterFinallyDemoApp" />
-      <module name="springdemo (6)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springandhibernate.springdemo.aopdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AfterThrowingDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springandhibernate.springdemo.aopdemo.AfterThrowingDemoApp" />
-      <module name="springdemo (5)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springandhibernate.springdemo.aopdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringdemoApplication (1)">
     <configuration name="AroundDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springandhibernate.springdemo.aopdemo.AroundDemoApp" />
       <module name="springdemo (8)" />
@@ -408,6 +503,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AroundHandleExceptionDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springandhibernate.springdemo.aopdemo.AroundHandleExceptionDemoApp" />
+      <module name="springdemo (11)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springandhibernate.springdemo.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AroundWithLoggerDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springandhibernate.springdemo.aopdemo.AroundWithLoggerDemoApp" />
       <module name="springdemo (9)" />
@@ -421,6 +529,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringdemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springdemo (11)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springandhibernate.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springandhibernate.springdemo.SpringdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springdemo (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springandhibernate.springdemo.SpringdemoApplication" />
@@ -430,19 +551,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringdemoApplication" />
-      <item itemvalue="Application.AfterThrowingDemoApp" />
-      <item itemvalue="Application.AfterFinallyDemoApp" />
       <item itemvalue="Application.AroundDemoApp" />
       <item itemvalue="Application.AroundWithLoggerDemoApp" />
       <item itemvalue="Application.AroundHandleExceptionDemoApp" />
+      <item itemvalue="Application.AroundHandleExceptionDemoApp (1)" />
+      <item itemvalue="Spring Boot.SpringdemoApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringdemoApplication (1)" />
+        <item itemvalue="Application.AroundHandleExceptionDemoApp (1)" />
         <item itemvalue="Application.AroundHandleExceptionDemoApp" />
         <item itemvalue="Application.AroundWithLoggerDemoApp" />
         <item itemvalue="Application.AroundDemoApp" />
-        <item itemvalue="Application.AfterFinallyDemoApp" />
-        <item itemvalue="Application.AfterThrowingDemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -456,48 +577,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562557268674</updated>
-      <workItem from="1562557270002" duration="15850000" />
+      <workItem from="1562557270002" duration="16060000" />
+      <workItem from="1562654705137" duration="1429000" />
+      <workItem from="1562656191095" duration="98000" />
+      <workItem from="1562836536924" duration="7899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15850000" />
+    <option name="totallyTimeSpent" value="25486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="173" width="1440" height="797" extended-state="0" />
+    <frame x="2" y="23" width="1440" height="797" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3290398" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" weight="0.32765958" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32765958" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32765958" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.501182" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" sideWeight="0.49881798" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,123 +631,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Duplicate.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-          <folding>
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding>
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -752,9 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,9 +820,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP/springdemo (7).iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="323">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
@@ -782,26 +833,9 @@
     <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP/springdemo (7).iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="306">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
@@ -816,24 +850,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java">
+    <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="391">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/ExceptionThrowClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="38" column="96" selection-start-line="38" selection-start-column="96" selection-end-line="38" selection-end-column="96" />
+        <state relative-caret-position="493">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java">
+    <entry file="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="442">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Duplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#280#1" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#279#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/TestC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#209#217#1" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="108" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

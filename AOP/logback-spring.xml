@@ -1,0 +1,31 @@
+<configuration
+scan="true" scanPeriod="60 seconds" debug="true">
+
+
+<include
+resource="org/springframework/boot/logging/logback/console-appender.xml" />
+<root level="info">
+<appender-ref ref="CONSOLE" />
+</root>
+
+<logger name="org.opensaml.xml.XMLConfigurator" level="warn"/>
+
+
+<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+
+<encoder>
+<pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+</encoder>
+</appender>
+
+    <property resource="applications.properties"></property>
+    <springProperty scope="context" name="allow" source="key"/>
+    <turboFilter class="com.springandhibernate.springdemo.aopdemo.Duplicate">
+        <allowedRepetitions>${allow}</allowedRepetitions>
+
+    </turboFilter>
+
+
+
+</configuration>
