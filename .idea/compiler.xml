@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springdemo" />
-        <module name="springdemo (1)" />
-        <module name="springdemo (10)" />
-        <module name="springdemo (11)" />
-        <module name="springdemo (2)" />
-        <module name="springdemo (3)" />
-        <module name="springdemo (4)" />
-        <module name="springdemo (5)" />
-        <module name="springdemo (6)" />
-        <module name="springdemo (7)" />
         <module name="springdemo (8)" />
+        <module name="springdemo (2)" />
         <module name="springdemo (9)" />
+        <module name="springdemo (3)" />
+        <module name="springdemo (10)" />
+        <module name="springdemo (4)" />
+        <module name="springdemo (11)" />
+        <module name="tutorial" />
+        <module name="springdemo (6)" />
+        <module name="tutorial (1)" />
+        <module name="springdemo" />
+        <module name="springdemo (7)" />
+        <module name="springdemo (1)" />
+        <module name="springdemo (5)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +35,14 @@
       <module name="springdemo (7)" target="1.8" />
       <module name="springdemo (8)" target="1.8" />
       <module name="springdemo (9)" target="1.8" />
+      <module name="tutorial" target="1.8" />
+      <module name="tutorial (1)" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tutorial" options="-parameters" />
+      <module name="tutorial (1)" options="-parameters" />
+    </option>
   </component>
 </project>

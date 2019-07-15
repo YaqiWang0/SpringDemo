@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/SpringAOP" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-pointcut-declarations-combo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-pointcut-order-aspects" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-read-joinpoint" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-resilience4j-CircuitBreaker" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-z-after-returning" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-z-after-throwing" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-zz-after-finally" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-zz-around" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-zz-around-with-logger" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAOP-zzz-around-handle-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hibernate/hb-01-one-to-one-uni" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hibernate/hibernate-tutorial" charset="UTF-8" />
   </component>
 </project>
