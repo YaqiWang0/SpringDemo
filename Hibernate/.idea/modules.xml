@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Hibernate.iml" filepath="$PROJECT_DIR$/.idea/Hibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate-tutorial/tutorial.iml" filepath="$PROJECT_DIR$/hibernate-tutorial/tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-02-one-to-one-uni/tutorial.iml" filepath="$PROJECT_DIR$/hb-02-one-to-one-uni/tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-01-one-to-one-uni/tutorial (1).iml" filepath="$PROJECT_DIR$/hb-01-one-to-one-uni/tutorial (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate-tutorial/tutorial (2).iml" filepath="$PROJECT_DIR$/hibernate-tutorial/tutorial (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-03-one-to-many/tutorial (3).iml" filepath="$PROJECT_DIR$/hb-03-one-to-many/tutorial (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-eager-vs-lazy-demo/tutorial (4).iml" filepath="$PROJECT_DIR$/hb-eager-vs-lazy-demo/tutorial (4).iml" />
     </modules>
   </component>
 </project>

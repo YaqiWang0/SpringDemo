@@ -6,11 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tutorial (3)" />
         <module name="tutorial" />
+        <module name="tutorial (2)" />
+        <module name="tutorial (4)" />
+        <module name="tutorial (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tutorial" target="1.8" />
+      <module name="tutorial (1)" target="1.8" />
+      <module name="tutorial (2)" target="1.8" />
+      <module name="tutorial (3)" target="1.8" />
+      <module name="tutorial (4)" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tutorial" options="-parameters" />
+      <module name="tutorial (1)" options="-parameters" />
+      <module name="tutorial (2)" options="-parameters" />
+      <module name="tutorial (3)" options="-parameters" />
+      <module name="tutorial (4)" options="-parameters" />
+    </option>
   </component>
 </project>

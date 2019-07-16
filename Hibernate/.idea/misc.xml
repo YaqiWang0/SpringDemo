@@ -7,6 +7,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/hibernate-tutorial/pom.xml" />
+        <option value="$PROJECT_DIR$/hb-01-one-to-one-uni/pom.xml" />
+        <option value="$PROJECT_DIR$/hb-02-one-to-one-uni/pom.xml" />
+        <option value="$PROJECT_DIR$/hb-03-one-to-many/pom.xml" />
+        <option value="$PROJECT_DIR$/hb-eager-vs-lazy-demo/pom.xml" />
       </list>
     </option>
   </component>

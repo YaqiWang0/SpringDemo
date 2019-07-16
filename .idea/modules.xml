@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringAOP/springdemo (9).iml" filepath="$PROJECT_DIR$/SpringAOP/springdemo (9).iml" />
       <module fileurl="file://$PROJECT_DIR$/Hibernate/hibernate-tutorial/tutorial.iml" filepath="$PROJECT_DIR$/Hibernate/hibernate-tutorial/tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hibernate/hb-01-one-to-one-uni/tutorial (1).iml" filepath="$PROJECT_DIR$/Hibernate/hb-01-one-to-one-uni/tutorial (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate/hibernate-tutorial/tutorial (2).iml" filepath="$PROJECT_DIR$/Hibernate/hibernate-tutorial/tutorial (2).iml" />
     </modules>
   </component>
 </project>
