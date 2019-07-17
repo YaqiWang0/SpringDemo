@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/hibernate-tutorial/tutorial (2).iml" filepath="$PROJECT_DIR$/hibernate-tutorial/tutorial (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/hb-03-one-to-many/tutorial (3).iml" filepath="$PROJECT_DIR$/hb-03-one-to-many/tutorial (3).iml" />
       <module fileurl="file://$PROJECT_DIR$/hb-eager-vs-lazy-demo/tutorial (4).iml" filepath="$PROJECT_DIR$/hb-eager-vs-lazy-demo/tutorial (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-04-one-to-many-uni/tutorial (5).iml" filepath="$PROJECT_DIR$/hb-04-one-to-many-uni/tutorial (5).iml" />
     </modules>
   </component>
 </project>

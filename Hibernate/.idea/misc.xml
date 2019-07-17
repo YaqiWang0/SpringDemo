@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/hb-02-one-to-one-uni/pom.xml" />
         <option value="$PROJECT_DIR$/hb-03-one-to-many/pom.xml" />
         <option value="$PROJECT_DIR$/hb-eager-vs-lazy-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/hb-04-one-to-many-uni/pom.xml" />
       </list>
     </option>
   </component>
