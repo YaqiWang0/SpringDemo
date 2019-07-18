@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/hb-02-one-to-one-uni" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hb-03-one-to-many" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hb-04-one-to-many-uni" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-05-many-to-many" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-05-many-to-many" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-05-many-to-many" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hb-eager-vs-lazy-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hibernate-tutorial" charset="UTF-8" />
   </component>

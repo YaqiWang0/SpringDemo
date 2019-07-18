@@ -12,7 +12,13 @@
         <option value="$PROJECT_DIR$/hb-03-one-to-many/pom.xml" />
         <option value="$PROJECT_DIR$/hb-eager-vs-lazy-demo/pom.xml" />
         <option value="$PROJECT_DIR$/hb-04-one-to-many-uni/pom.xml" />
+        <option value="$PROJECT_DIR$/hb-06-many-to-many/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hb-05-many-to-many/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

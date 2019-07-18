@@ -3,7 +3,6 @@ package com.hibernate.hibernate.demo;
 import com.hibernate.demo.entity.Course;
 import com.hibernate.demo.entity.Instructor;
 import com.hibernate.demo.entity.InstructorDetail;
-import com.hibernate.demo.entity.Review;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -11,7 +10,7 @@ import org.hibernate.cfg.Configuration;
 import java.text.ParseException;
 
 
-public class DeleteCourseAndReviewsDemo {
+public class CreateCoursesDemo {
     public static void main(String[] args) throws ParseException {
 
         //create sessionFactory
@@ -20,7 +19,6 @@ public class DeleteCourseAndReviewsDemo {
                 .addAnnotatedClass(Instructor.class)
                 .addAnnotatedClass(InstructorDetail.class)
                 .addAnnotatedClass(Course.class)
-                .addAnnotatedClass(Review.class)
                 .buildSessionFactory();
         //create session
         Session session = factory.getCurrentSession();
@@ -29,17 +27,20 @@ public class DeleteCourseAndReviewsDemo {
             //start a transaction
             session.beginTransaction();
 
-            //get the course
-            int theId = 10;
-            Course course=session.get(Course.class,theId);
+           //get the instructor from db
+            int id=1;
+            Instructor instructor=session.get(Instructor.class,id);
+            //create some courses
+            Course course1=new Course("Air Guitar");
+            Course course2=new Course("The pinball");
+            //add courses to instructor
+            instructor.add(course1);
+            instructor.add(course2);
 
-            //print the course
-            System.out.println("\n\n\nCourse: "+course);
+            //save the courses
+            session.save(course1);
+            session.save(course2);
 
-            //print the course reviews
-            System.out.println(course.getReviews());
-
-            session.delete(course);
             //commit the transaction
             session.getTransaction().commit();
 

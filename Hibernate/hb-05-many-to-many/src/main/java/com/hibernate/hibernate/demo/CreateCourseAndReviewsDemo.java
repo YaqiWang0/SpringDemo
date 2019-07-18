@@ -11,7 +11,7 @@ import org.hibernate.cfg.Configuration;
 import java.text.ParseException;
 
 
-public class DeleteCourseAndReviewsDemo {
+public class CreateCourseAndReviewsDemo {
     public static void main(String[] args) throws ParseException {
 
         //create sessionFactory
@@ -29,17 +29,16 @@ public class DeleteCourseAndReviewsDemo {
             //start a transaction
             session.beginTransaction();
 
-            //get the course
-            int theId = 10;
-            Course course=session.get(Course.class,theId);
+            //create a course
+            Course course=new Course("Pacman-How to score one million point");
 
-            //print the course
-            System.out.println("\n\n\nCourse: "+course);
+            //add some reviews
+            course.addReview(new Review("Great course ... loved it"));
+            course.addReview(new Review("Cool course,job well done"));
+            course.addReview(new Review("What a dumb course"));
 
-            //print the course reviews
-            System.out.println(course.getReviews());
-
-            session.delete(course);
+            //save th course .. and leverage the cascade all :-)
+            session.save(course);
             //commit the transaction
             session.getTransaction().commit();
 

@@ -11,7 +11,7 @@ import org.hibernate.cfg.Configuration;
 import java.text.ParseException;
 
 
-public class DeleteCourseAndReviewsDemo {
+public class GetCourseAndReviewsDemo {
     public static void main(String[] args) throws ParseException {
 
         //create sessionFactory
@@ -39,7 +39,6 @@ public class DeleteCourseAndReviewsDemo {
             //print the course reviews
             System.out.println(course.getReviews());
 
-            session.delete(course);
             //commit the transaction
             session.getTransaction().commit();
 

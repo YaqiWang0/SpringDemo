@@ -9,6 +9,7 @@
         <module name="tutorial (4)" />
         <module name="tutorial (5)" />
         <module name="tutorial" />
+        <module name="tutorial (6)" />
         <module name="tutorial (1)" />
         <module name="tutorial (2)" />
         <module name="tutorial (3)" />
@@ -21,6 +22,8 @@
       <module name="tutorial (3)" target="1.8" />
       <module name="tutorial (4)" target="1.8" />
       <module name="tutorial (5)" target="1.8" />
+      <module name="tutorial (6)" target="1.8" />
+      <module name="tutorial (7)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +34,8 @@
       <module name="tutorial (3)" options="-parameters" />
       <module name="tutorial (4)" options="-parameters" />
       <module name="tutorial (5)" options="-parameters" />
+      <module name="tutorial (6)" options="-parameters" />
+      <module name="tutorial (7)" options="-parameters" />
     </option>
   </component>
 </project>

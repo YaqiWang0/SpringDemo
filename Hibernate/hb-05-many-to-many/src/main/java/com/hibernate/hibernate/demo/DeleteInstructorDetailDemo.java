@@ -1,9 +1,7 @@
 package com.hibernate.hibernate.demo;
 
-import com.hibernate.demo.entity.Course;
 import com.hibernate.demo.entity.Instructor;
 import com.hibernate.demo.entity.InstructorDetail;
-import com.hibernate.demo.entity.Review;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -11,7 +9,7 @@ import org.hibernate.cfg.Configuration;
 import java.text.ParseException;
 
 
-public class DeleteCourseAndReviewsDemo {
+public class DeleteInstructorDetailDemo {
     public static void main(String[] args) throws ParseException {
 
         //create sessionFactory
@@ -19,8 +17,6 @@ public class DeleteCourseAndReviewsDemo {
                 .configure("hibernate.cfg.xml")
                 .addAnnotatedClass(Instructor.class)
                 .addAnnotatedClass(InstructorDetail.class)
-                .addAnnotatedClass(Course.class)
-                .addAnnotatedClass(Review.class)
                 .buildSessionFactory();
         //create session
         Session session = factory.getCurrentSession();
@@ -29,24 +25,23 @@ public class DeleteCourseAndReviewsDemo {
             //start a transaction
             session.beginTransaction();
 
-            //get the course
-            int theId = 10;
-            Course course=session.get(Course.class,theId);
+            int theId=2;
+            InstructorDetail instructorDetail=session.get(InstructorDetail.class,theId);
 
-            //print the course
-            System.out.println("\n\n\nCourse: "+course);
+            System.out.println("instructorDetail: "+instructorDetail);
 
-            //print the course reviews
-            System.out.println(course.getReviews());
+            System.out.println("the associated instructor: "+instructorDetail.getInstructor());
 
-            session.delete(course);
-            //commit the transaction
+            instructorDetail.getInstructor().setInstructorDetail(null);
+            session.delete(instructorDetail);
+
             session.getTransaction().commit();
-
             System.out.println("Done!");
+        }catch(Exception exc){
+            exc.printStackTrace();
         }
         finally {
-            //add clean up code
+            //handle the leaking issue
             session.close();
             factory.close();
         }
