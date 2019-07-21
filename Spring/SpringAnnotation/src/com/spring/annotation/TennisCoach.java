@@ -3,7 +3,11 @@ package com.spring.annotation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Component
 public class TennisCoach implements Coach{
@@ -38,7 +42,18 @@ public class TennisCoach implements Coach{
 
     }
 
+    //define my init method
+    @PostConstruct
+    public void doMyStartUpMethod(){
+        System.out.println(">>>>>>>> inside of doMyStartUpMethod");
+    }
 
+    @PreDestroy
+    public void doMyCleanUpMethod(){
+        System.out.println(">>>>>>> inside of oMyCleanUpMethod");
+    }
+
+    //define my destroy method
 
 //    @Autowired
 //    public void setMyFortuneService(FortuneService fortuneService) {
