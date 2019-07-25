@@ -21,6 +21,7 @@ public class CustomerController {
 
     @InitBinder
     public void initBinder(WebDataBinder dataBinder){
+
         StringTrimmerEditor stringTrimmerEditor=new StringTrimmerEditor(true);
         dataBinder.registerCustomEditor(String.class,stringTrimmerEditor);
     }
@@ -38,6 +39,8 @@ public class CustomerController {
             BindingResult bindingResult){
         System.out.println("First name: |"+customer.getFirstName()+"|");
         System.out.println("Last name: |"+customer.getLastName()+"|");
+
+        System.out.println(bindingResult);
         if(bindingResult.hasErrors()){
             return "customer-form";
         }else {
