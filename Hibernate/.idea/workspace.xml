@@ -2,45 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c188d377-5832-4104-b901-2d37902703df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/AddCoursesForMaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateCoursesAndStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/DeleteCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/DeleteCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/DeleteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/GetCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/GetCoursesForMaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/tutorial/HibernateTutorialApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/tutorial/com/jdbc/TestJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hb-05-many-to-many/src/test/java/com/hibernate/tutorial/HibernateTutorialApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hibernate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/aspectjweaver-1.8.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/c3p0-0.9.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/hibernate-c3p0-5.4.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/src/com/springdemo/aspect/CRMLoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/src/com/springdemo/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/src/com/springdemo/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/src/com/springdemo/dao/CustomerDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/src/com/springdemo/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/src/com/springdemo/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/src/com/springdemo/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/aspectjweaver-1.8.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/c3p0-0.9.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/hibernate-c3p0-5.4.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/hibernate-core-5.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/view/list-consumers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/resources/css/add-customer-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/DatabaseWebApp/web/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringMVC/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/artifacts/spring_security_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/artifacts/spring_security_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/spring-security-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/java/com/springsecurity/demo/config/DemoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/java/com/springsecurity/demo/config/DemoSecurityConifg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/java/com/springsecurity/demo/config/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/java/com/springsecurity/demo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/java/com/springsecurity/demo/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/resources/persistence-mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/webapp/WEB-INF/view/access-denied.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/webapp/WEB-INF/view/fancy-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/webapp/WEB-INF/view/leaders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/webapp/WEB-INF/view/plain-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/spring-security-demo-01-base-app/src/main/webapp/WEB-INF/view/systems.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/java/com/hibernate/hibernate/demo/DeleteCourseAndReviewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/java/com/hibernate/hibernate/demo/DeleteCourseAndReviewsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/SpringMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/SpringMVC/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hibernate-tutorial/target/" />
     <ignored path="$PROJECT_DIR$/hb-01-one-to-one-uni/target/" />
@@ -64,7 +191,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="1335">
               <caret line="115" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
@@ -73,7 +200,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="1140">
               <caret line="98" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
@@ -93,7 +220,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/GetCoursesForMaryDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -103,9 +230,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/java/com/hibernate/tutorial/com/jdbc/TestJDBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-134" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
             </state>
           </provider>
@@ -184,8 +343,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="554" />
-    <option name="y" value="23" />
+    <option name="x" value="384" />
+    <option name="y" value="51" />
     <option name="width" value="886" />
     <option name="height" value="797" />
   </component>
@@ -207,36 +366,6 @@
               <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="hb-04-one-to-many-uni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="hb-04-one-to-many-uni" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="hb-04-one-to-many-uni" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="hb-04-one-to-many-uni" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="hb-04-one-to-many-uni" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
@@ -316,7 +445,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563010085781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565941139630" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hb-06-many-to-many/src/main/java/com/hibernate/hibernate/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -455,18 +584,19 @@
       <workItem from="1563003718657" duration="5274000" />
       <workItem from="1563200065191" duration="15131000" />
       <workItem from="1563350668736" duration="1957000" />
+      <workItem from="1565939736242" duration="658000" />
+      <workItem from="1566098417304" duration="412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22362000" />
+    <option name="totallyTimeSpent" value="23432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="23" width="886" height="797" extended-state="0" />
+    <frame x="384" y="51" width="886" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Persistence" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31042653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32464454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -474,6 +604,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
@@ -673,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/java/com/hibernate/demo/entity/Review.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -741,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateCourseAndReviewsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -755,47 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateCoursesAndStudentsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="34" column="9" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="43" column="25" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateCoursesAndStudentsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/GetInstructorDetailDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/tutorial/HibernateTutorialApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/tutorial/HibernateTutorialApplication.java" />
     <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/DeleteCoursesDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -822,50 +902,22 @@
         <state relative-caret-position="-3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/AddCoursesForMaryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="14" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="1335">
           <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="92" column="13" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/demo/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="1140">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/CreateCoursesAndStudentsDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/java/com/hibernate/hibernate/demo/AddCoursesForMaryDemo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -879,6 +931,37 @@
         <state relative-caret-position="225">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/src/main/java/com/hibernate/tutorial/com/jdbc/TestJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb-04-one-to-many-uni/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb-05-many-to-many/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134" />
       </provider>
     </entry>
   </component>
