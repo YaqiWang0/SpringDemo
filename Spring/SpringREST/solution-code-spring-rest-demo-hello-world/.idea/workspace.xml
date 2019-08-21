@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring-rest-demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1389b136-e335-42cd-bcd1-03b6e35bccd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/jackson-databind-json-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/src/main/java/com/jackson/json/demo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/src/main/java/com/jackson/json/demo/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jackson-databinding-json-demo/src/main/java/com/jackson/json/demo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/config/DemoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/rest/DemoRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations-combo/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-declarations/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-pointcut-order-aspects/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-read-joinpoint/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/CircuitBreakerDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/Duplicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/TestC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/CircuitBreakerAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/ExceptionThrowClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/GetFortuneforCircuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-resilience4j-CircuitBreaker/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-returning/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-z-after-throwing/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-after-finally/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around-with-logger/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zz-around/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundHandleExceptionDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/AroundWithLoggerDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/LuvAopExpressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/java/com/springandhibernate/springdemo/aopdemo/service/TrafficFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP-zzz-around-handle-exception/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/java/com/springandhibernate/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/java/com/springandhibernate/springdemo/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/java/com/springandhibernate/springdemo/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/java/com/springandhibernate/springdemo/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/java/com/springandhibernate/springdemo/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/java/com/springandhibernate/springdemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/SpringAOP/src/test/java/com/springandhibernate/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AOP/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CRMWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CRMWebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSecurity/spring-security-demo-01-base-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringSecurity/spring-security-demo-01-base-app/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/entity/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentErrorResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/config/DemoAppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/config/MySpringMVCDispatcherServletInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/DemoRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/rest/config/DemoAppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/rest/config/MySpringMVCDispatcherServletInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/config/MySpringMVCDispatcherServletInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/rest/DemoRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentErrorResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestExceptionHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="161" />
+    <option name="y" value="57" />
+    <option name="width" value="1316" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-rest-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution-code-spring-rest-demo-hello-world" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-rest-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution-code-spring-rest-demo-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-rest-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution-code-spring-rest-demo-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-rest-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution-code-spring-rest-demo-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-rest-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution-code-spring-rest-demo-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-rest-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution-code-spring-rest-demo-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-rest-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution-code-spring-rest-demo-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566378951165" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring-rest-demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-rest-demo" />
+        <option name="HTTP_PORT" value="8079" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49943" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-rest-demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1389b136-e335-42cd-bcd1-03b6e35bccd9" name="Default Changelist" comment="" />
+      <created>1566372213997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566372213997</updated>
+      <workItem from="1566372216870" duration="5243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5243000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="161" y="57" width="1316" height="947" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960753" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32982457" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/config/DemoAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/config/MySpringMVCDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/DemoRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springdemo/rest/StudentRestExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
