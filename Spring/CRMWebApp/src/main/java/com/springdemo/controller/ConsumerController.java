@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+//@Controller
 @RequestMapping("/customer")
 public class ConsumerController {
 
@@ -71,4 +71,6 @@ public class ConsumerController {
         model.addAttribute("customers",customers);
         return "list-customers";
     }
+
+
 }

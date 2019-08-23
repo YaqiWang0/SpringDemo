@@ -29,7 +29,6 @@ import java.util.logging.Logger;
 @EnableTransactionManagement
 @ComponentScan("com.springdemo")
 @PropertySource({"classpath:persistence-mysql.properties","classpath:security-persistence-mysql.properties"})
-
 public class DemoAppConfig implements WebMvcConfigurer {
 
     @Autowired
@@ -123,6 +122,7 @@ public class DemoAppConfig implements WebMvcConfigurer {
 
         return props;
     }
+
 
     @Bean
     @Autowired

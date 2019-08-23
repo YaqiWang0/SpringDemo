@@ -1,0 +1,7 @@
+com/springdemo/rest/config/MySpringMvcDispatcherServlet.class
+com/springdemo/rest/model/Customer.class
+com/springdemo/rest/config/DemoAppConfig.class
+com/springdemo/rest/controller/CustomerController.class
+com/springdemo/rest/service/CustomerService.class
+com/springdemo/rest/service/CustomerServiceRestClientImpl.class
+com/springdemo/rest/service/CustomerServiceRestClientImpl$1.class
